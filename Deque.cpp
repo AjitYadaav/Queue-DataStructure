@@ -8,12 +8,12 @@ int main(){
     deq.push_back(2);
     deq.push_front(3);
 
-    // so final deque has 3 2 1 as a elements 
+    // so final deque has 3 1 2 as a elements 
 
     cout<<deq.front();//3
-    cout<<deq.back();//1
-    cout<<deq.empty();//false
+    cout<<deq.back();//2
+    cout<<deq.empty();//false(0)
 
-    deq.pop_back();//1 is removed from deque
+    deq.pop_back();//2 is removed from deque
     deq.pop_front();//3 is removed from the deque
 }
